@@ -72,7 +72,7 @@ while(1):
     if str(Curse) == "tell me":
         speak("ok")
         Curse = listen()
-        appid = "3J84PX-AEPPPVHK73"
+        appid = "put your own app id in here!"
         client = wolframalpha.Client(appid)
         res = client.query(Curse)
         answer = next(res.results).text
